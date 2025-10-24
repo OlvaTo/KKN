@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>KKN Desa Kragilan</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav>
+      <div class="nav-container">
+        <div class="nav-logo">Desa Kragilan</div>
+        <div class="burger-menu" id="burgerMenu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <ul>
+          <li><a href="#data">Profil Desa</a></li>
+          <li><a href="#surat">Surat Permohonan</a></li>
+          <li><a href="#berita">Berita</a></li>
+          <li><a href="#footer">Kontak</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="overlay" id="overlay"></div>
+    <div class="sidebar" id="sidebar">
+      <ul>
+        <li><a href="#data">Profil Desa</a></li>
+        <li><a href="#surat">Surat Permohonan</a></li>
+        <li><a href="#berita">Berita</a></li>
+        <li><a href="#footer">Kontak</a></li>
+      </ul>
+    </div>
+
+    <section class="opening">
+      <h1>Desa KKN Kragilan</h1>
+      <p>Portal Informasi dan Pelayanan Masyarakat</p>
+    </section>
+
+    <section class="image-section">
+      <img src="Image.jpg" alt="Pemandangan Desa" class="image" />
+    </section>
+
+    <section class="Data" id="data">
+      <h2>Data & Statistik Desa</h2>
+      <div class="Statistik">
+        <div class="stat-item">
+          <h3>1.001</h3>
+          <p>Penduduk</p>
+        </div>
+        <div class="stat-item">
+          <h3>35</h3>
+          <p>Keluarga</p>
+        </div>
+        <div class="stat-item">
+          <h3>45</h3>
+          <p>UMKM</p>
+        </div>
+        <div class="stat-item">
+          <h3>12</h3>
+          <p>Dusun</p>
+        </div>
+      </div>
+    </section>
+
+    <div class="Combine">
+      <section class="WisataSection">
+        <div class="WisataCard">
+          <h2 class="WisataTitle">Wisata Desa & UMKM</h2>
+          <p class="WisataDeskripsi">
+            Desa KKN Kragilan memiliki berbagai destinasi wisata alam dan budaya
+            serta UMKM yang menarik untuk dikunjungi. Tempat-tempat indah dengan
+            pemandangan alam yang memukau menanti Anda.
+          </p>
+          <a href="#" class="WisataLink">
+            Lihat selengkapnya
+            <span class="arrow">&rarr;</span>
+          </a>
+        </div>
+      </section>
+
+      <section class="PetaDesa">
+        <div class="PetaCard">
+          <h2 class="PetaTitle">Peta Desa</h2>
+          <p class="PetaSubtitle">Lokasi dan batas wilayah Desa Kragilan</p>
+          <div class="PetaMapContainer">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3956.29655168316!2d110.40922507500139!3d-7.432399992578328!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zN8KwMjUnNTYuNiJTIDExMMKwMjQnNDIuNSJF!5e0!3m2!1sid!2sid!4v1761305066103!5m2!1sid!2sid"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <section class="Surat" id="surat">
+      <h2>Surat Permohonan</h2>
+      <div class="card-container">
+        <div class="card">
+          <svg
+            class="card-icon"
+            viewBox="0 0 24 24"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M14 2H6C5.46957 2 4.96086 2.21071 4.58579 2.58579C4.21071 2.96086 4 3.46957 4 4V20C4 20.5304 4.21071 21.0391 4.58579 21.4142C4.96086 21.7893 5.46957 22 6 22H18C18.5304 22 19.0391 21.7893 19.4142 21.4142C19.7893 21.0391 20 20.5304 20 20V8L14 2ZM18 20H6V4H13V9H18V20ZM9 12V10H15V12H9ZM9 15V13H15V15H9ZM9 18V16H13V18H9Z"
+              fill="#0f3b57"
+            />
+          </svg>
+          <h3 class="card-title">Surat Keterangan Domisili</h3>
+          <p class="card-desc">
+            Surat keterangan tempat tinggal untuk berbagai keperluan
+            administrasi.
+          </p>
+          <a href="#" class="card-link">Lihat Detail &rarr;</a>
+        </div>
+
+        <div class="card">
+          <svg
+            class="card-icon"
+            viewBox="0 0 24 24"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M14 2H6C5.46957 2 4.96086 2.21071 4.58579 2.58579C4.21071 2.96086 4 3.46957 4 4V20C4 20.5304 4.21071 21.0391 4.58579 21.4142C4.96086 21.7893 5.46957 22 6 22H18C18.5304 22 19.0391 21.7893 19.4142 21.4142C19.7893 21.0391 20 20.5304 20 20V8L14 2ZM18 20H6V4H13V9H18V20ZM9 12V10H15V12H9ZM9 15V13H15V15H9ZM9 18V16H13V18H9Z"
+              fill="#0f3b57"
+            />
+          </svg>
+          <h3 class="card-title">Surat Keterangan KTP & KK</h3>
+          <p class="card-desc">
+            Permohonan pembuatan atau pembaruan dokumen kependudukan seperti KTP
+            dan KK.
+          </p>
+          <a href="#" class="card-link">Lihat Detail &rarr;</a>
+        </div>
+
+        <div class="card">
+          <svg
+            class="card-icon"
+            viewBox="0 0 24 24"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M14 2H6C5.46957 2 4.96086 2.21071 4.58579 2.58579C4.21071 2.96086 4 3.46957 4 4V20C4 20.5304 4.21071 21.0391 4.58579 21.4142C4.96086 21.7893 5.46957 22 6 22H18C18.5304 22 19.0391 21.7893 19.4142 21.4142C19.7893 21.0391 20 20.5304 20 20V8L14 2ZM18 20H6V4H13V9H18V20ZM9 12V10H15V12H9ZM9 15V13H15V15H9ZM9 18V16H13V18H9Z"
+              fill="#0f3b57"
+            />
+          </svg>
+          <h3 class="card-title">Surat Keterangan Tidak Mampu (SKTM)</h3>
+          <p class="card-desc">
+            Surat resmi untuk keperluan bantuan pendidikan atau kesehatan.
+          </p>
+          <a href="#" class="card-link">Lihat Detail &rarr;</a>
+        </div>
+      </div>
+
+      <a href="#" class="button-all">Lihat Semua Surat</a>
+    </section>
+
+    <section class="Berita" id="berita">
+      <h2 class="berita-header">Berita Desa</h2>
+      <p class="berita-subtitle">
+        Menyajikan informasi terbaru tentang peristiwa, berita terkini, dan
+        artikel-artikel jurnalistik dari Desa Kragilan
+      </p>
+      <div class="berita-container">
+        <h3>Belum ada Informasi</h3>
+      </div>
+    </section>
+
+    <footer class="footer" id="footer">
+      <div class="footer-content">
+        <div class="footer-section">
+          <h3>Desa Kragilan</h3>
+          <p>
+            Portal informasi dan pelayanan masyarakat Desa Kragilan yang
+            memberikan kemudahan akses layanan administrasi.
+          </p>
+        </div>
+
+        <div class="footer-section">
+          <h3>Menu</h3>
+          <a href="#">Profil Desa</a>
+          <a href="#">Surat Permohonan</a>
+          <a href="#">Berita</a>
+          <a href="#">Kontak</a>
+        </div>
+
+        <div class="footer-section">
+          <h3>Kontak</h3>
+          <p>📍 Desa Kragilan, Kecamatan Mojosongo</p>
+          <p>📞 (0271) xxx-xxxx</p>
+          <p>📧 info@desakragilan.id</p>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div class="social-links">
+          <a href="#" title="Facebook">f</a>
+          <a href="#" title="Instagram">📷</a>
+          <a href="#" title="Twitter">🐦</a>
+        </div>
+        <p>&copy; 2025 <strong>Desa Kragilan</strong>. All Rights Reserved.</p>
+        <p>Developed with ❤️ by KKN Team</p>
+      </div>
+    </footer>
+
+    <script>
+      const burgerMenu = document.getElementById("burgerMenu");
+      const sidebar = document.getElementById("sidebar");
+      const overlay = document.getElementById("overlay");
+
+      burgerMenu.addEventListener("click", () => {
+        burgerMenu.classList.toggle("active");
+        sidebar.classList.toggle("active");
+        overlay.classList.toggle("active");
+      });
+
+      overlay.addEventListener("click", () => {
+        burgerMenu.classList.remove("active");
+        sidebar.classList.remove("active");
+        overlay.classList.remove("active");
+      });
+
+      const sidebarLinks = sidebar.querySelectorAll("a");
+      sidebarLinks.forEach((link) => {
+        link.addEventListener("click", () => {
+          burgerMenu.classList.remove("active");
+          sidebar.classList.remove("active");
+          overlay.classList.remove("active");
+        });
+      });
+    </script>
+  </body>
+</html>
